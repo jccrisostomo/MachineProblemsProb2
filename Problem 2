@@ -71,3 +71,17 @@ int main()
     system("pause");
     
 	}
+ if (a == b && b ==c) {
+    	double apothem;
+    	apothem = (a)/(2*tan(180/3));
+    	cout << "Length of Apothem: " << apothem << endl;
+	}
+	else
+	cout << " Triangle must be equilateral for apothem to be calculated." << endl;
+	
+	double circumcenter;
+	cout << " Length of circumcenter: " << circumcenter << endl;
+	cout << endl;
+	
+	return 0;
+}
